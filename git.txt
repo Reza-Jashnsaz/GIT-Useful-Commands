@@ -1,0 +1,58 @@
+﻿introduce to git
+   git config --global user.name "reza"
+   git config --global user.email "reza@gmail.com"
+
+------------------------------
+make repository
+   git init
+
+-------------------------------
+add file to stage
+  git add .
+
+---------------------------------
+
+commit to repository
+  git commit -m "message"
+
+---------------------------------
+unstage
+   git restore --staged  a.txt
+
+----------------------------------
+
+show commits
+   git log
+   git log --oneline
+
+------------------------------------
+
+create branch
+   git branch {name}
+
+switch to a branch
+   git checkout {name}
+
+
+merge
+   git merge {name}
+
+rename branch
+   git branch -m {name} {new_name}
+
+delete branch
+   git branch -d {name}
+
+-------------------------------------------------------------------
+
+reset
+   git reset {hash} --hard
+   git reset {hash} --soft
+
+-------------------------------------------------------
+
+add to github
+   git remote add origin {url}
+   git branch -M main
+   git push -u origin main
+
